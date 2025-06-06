@@ -17,22 +17,21 @@ matches_per_season = {
     2008: {"total_matches": 58, "playoffs": ["Final","Semifinal 2","Semifinal 1"]},
     2009: {"total_matches": 57, "playoffs": ["Final", "Semifinal 2", "Semifinal 1"]},
     2010: {"total_matches": 59, "playoffs": ["Final", "Eliminator", "Qualifier 2 ", "Qualifier 1"]},
-    2011: {"total_matches": 74, "playoffs": ["Final", "Qualifier 2", "Eliminator", "Qualifier 1"]},
+    2011: {"total_matches": 72, "playoffs": ["Final", "Qualifier 2", "Eliminator", "Qualifier 1"]},
     2012: {"total_matches": 76, "playoffs": ["Final", "Qualifier 2", "Eliminator", "Qualifier 1"]},
     2013: {"total_matches": 76, "playoffs": ["Final", "Qualifier 2", "Eliminator", "Qualifier 1"]},
     2014: {"total_matches": 60, "playoffs": ["Final", "Qualifier 2", "Eliminator", "Qualifier 1"]},
-    2015: {"total_matches": 60, "playoffs": ["Final", "Qualifier 2", "Eliminator", "Qualifier 1"]},
+    2015: {"total_matches": 59, "playoffs": ["Final", "Qualifier 2", "Eliminator", "Qualifier 1"]},
     2016: {"total_matches": 60, "playoffs": ["Final", "Qualifier 2", "Eliminator", "Qualifier 1"]},
-    2017: {"total_matches": 60, "playoffs": ["Final", "Qualifier 2", "Eliminator", "Qualifier 1"]},
+    2017: {"total_matches": 59, "playoffs": ["Final", "Qualifier 2", "Eliminator", "Qualifier 1"]},
     2018: {"total_matches": 60, "playoffs": ["Final", "Qualifier 2", "Eliminator", "Qualifier 1"]},
     2019: {"total_matches": 60, "playoffs": ["Final", "Qualifier 2", "Eliminator", "Qualifier 1"]},
     2020: {"total_matches": 60, "playoffs": ["Final", "Qualifier 2", "Eliminator", "Qualifier 1"]},
     2021: {"total_matches": 60, "playoffs": ["Final", "Qualifier 2", "Eliminator", "Qualifier 1"]},
     2022: {"total_matches": 74, "playoffs": ["Final", "Qualifier 2", "Eliminator", "Qualifier 1"]},
     2023: {"total_matches": 74, "playoffs": ["Final", "Qualifier 2", "Eliminator", "Qualifier 1"]},
-    2024: {"total_matches": 74, "playoffs": ["Final", "Qualifier 2", "Eliminator", "Qualifier 1"]}
+    2024: {"total_matches": 71, "playoffs": ["Final", "Qualifier 2", "Eliminator", "Qualifier 1"]}
 }
-
 # Map matches to seasons and match types
 season_match_info = {}
 match_ids = sorted(df['match_id'].unique())
