@@ -7,7 +7,7 @@ st.set_page_config(layout="wide", page_title="IPL Match Dashboard")
 
 @st.cache_data
 def load_data():
-    df = pd.read_csv('deliveries.csv')
+    df = pd.read_csv("deliveries.csv.gz", compression='gzip')
     return df
 
 df = load_data()
